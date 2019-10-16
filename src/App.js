@@ -4,7 +4,8 @@ import React from 'react';
 // import UseCallback from './page/UseCallback'
 // import UseMemo from './page/UseMemo'
 // import UseRef from './page/UseRef'
-import UseLayoutEffect from './page/UseLayoutEffect'
+// import UseLayoutEffect from './page/UseLayoutEffect'
+import Redux from './page/Redux'
 import './App.css';
 
 export const ThemeContext = React.createContext();
@@ -20,7 +21,8 @@ function App() {
         {/* <UseCallback /> */}
         {/* <UseMemo/> */}
         {/* <UseRef /> */}
-        <UseLayoutEffect />
+        {/* <UseLayoutEffect /> */}
+        <Redux/>
       </div>
     
   );
