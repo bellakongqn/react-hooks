@@ -5,7 +5,10 @@ import React from 'react';
 // import UseMemo from './page/UseMemo'
 // import UseRef from './page/UseRef'
 // import UseLayoutEffect from './page/UseLayoutEffect'
-import Redux from './page/Redux'
+// import Redux from './page/Redux'
+// import Test from './page/Test'
+// import Demo from './page/Demo'
+import FetchData from './page/FetchData'
 import './App.css';
 
 export const ThemeContext = React.createContext();
@@ -22,7 +25,10 @@ function App() {
         {/* <UseMemo/> */}
         {/* <UseRef /> */}
         {/* <UseLayoutEffect /> */}
-        <Redux/>
+        {/* <Redux/> */}
+        {/* <Test /> */}
+        {/* <Demo /> */}
+        <FetchData />
       </div>
     
   );
